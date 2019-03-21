@@ -1,0 +1,22 @@
+{
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "description": "",
+  "env": {
+    "MY_KEY": {
+      "generator": "secret"
+    }
+  },
+  "formation": {
+  },
+  "name": "hypermedia-testing-range",
+  "scripts": {
+  },
+  "stack": "heroku-18"
+}
